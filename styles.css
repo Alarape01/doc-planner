@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    gap: 600px;
+}
+
+.main-container img{
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+.main-container nav ul{
+    gap: 10px;
+}
+
+nav{
+    position: absolute;
+    right: 180px;
+    top: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    color: rgb(190, 186, 186);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+nav li a:hover{
+    color: #42e0f5;
+    transition: 0.5s ease-in;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+    /* position: relative; */
+}
+
+.second-container img{
+    position: absolute;
+    top: 130px;
+}
+
+.second-container p{
+    position: absolute;
+    top: 200px;
+    color: #57cfb3;
+    font-weight: 800px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.small-text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 210px;
+    gap: 10px;
+    padding: 10%;
+}
+
+.small-text p {
+    width: 400px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+  }
+  
+  .box {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .box1{
+    background-color: #57cfb3;
+    color: white;
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .box1 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  
+  .box2{
+    background-color: rgb(77, 116, 190);
+    color: white;
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .box2 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  
+  .box3{
+    background-color: rgb(26, 26, 46);
+    color: white;
+    display: block;
+    padding: 20px;
+  }
+
+  .box3 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  #country{
+    color: white;
+    border: none;
+    background-color: #57cfb3;
+    font-size: 18px;
+  }
+
+  #country2{
+    color: white;
+    border: none;
+    background-color: rgb(77, 116, 190);
+    font-size: 18px;
+  }
+
+  .country3{
+    color: white;
+    border: none;
+    background-color: rgb(26, 26, 46);
+    font-size: 20px;
+  }
+
+  .text-images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    gap: 200px;
+  }
+
+  .text-images p{
+    color: #57cfb3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 300px;
+  }
+  
+  .txt-imgs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+
+  .color-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 350px;
+    height: 600px;
+    width: 100%;
+    background-color: #99f7e1;
+  }
+
+  .color-container1 h2{
+    color: #57cfb3;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 250px;
+  }
+
+  .color-container1 p{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 18px;
+    width: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: grey;
+  }
+
+  .color-container1 img{
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    width: 370px;
+    height: 300px;
+  }
+
+  .color-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .color1{
+    width: 250px;
+    height: 260px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 1px;
+  }
+  .container1{
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 260px;
+    top: 30px;
+  }
+
+  .container1 img{
+    padding-top: 15px;
+    padding-left: 100px;
+  }
+
+  .container1 h2{
+    color:#57cfb3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 55px;
+  }
+
+  .container1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+
+  .container2{
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 260px;
+    bottom: 10px;
+  }
+
+  .container2 img{
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+
+  .container2 h2{
+    color:#57cfb3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 55px;
+  }
+
+  .container2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 35px;
+  }
+
+  .container3{
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+  }
+
+  .container3 img{
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+
+  .container3 h2{
+    color:#57cfb3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
+  .container3 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 70px;
+  }
+
+  .container4{
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+  }
+
+  .container4 img{
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+
+  .container4 h2{
+    color:#57cfb3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 70px;
+  }
+
+  .container4 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 70px;
+  }
+
+  .flex-card{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1700px;
+  }
+
+  .flex-card h2{
+    color: #35a188;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding-left: 30%;
+    font-size: 30px;
+  }
+  .flex-card .change{
+    padding-left: 35%;
+  }
+
+  .flex-card .p1{
+    color: grey;
+    padding-top: 14px;
+    padding-left: 27%;
+  }
+
+  .flex-card .p2{
+    color: grey;
+    padding-top: 8px;
+    padding-left: 22%;
+  }
+
+  .flex-card .p3{
+    color: grey;
+    padding-top: 8px;
+    padding-left: 27%;
+  }
+  .place-cards{
+    position: relative;
+    top: 680px;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+  .place-cards a{
+    color: rgb(59, 57, 57);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .place-cards a button{
+    margin-left: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 3px 3px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+
+  .place-cards a:hover{
+    box-shadow: 3px 3px 10px #585757;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+
+  .current-openings{
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    top: 700px;
+  }
+
+  .current-openings h2{
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .current-openings button{
+    height: 30px;
+    width: 280px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 4px;
+  }
+
+  .bottom-text{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    top: 720px;
+  }
+  .bottom-text p{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 100;
+  }
+
+  .bottom-text p a{
+    text-decoration: none;
+    color: blue;
+  }
+
+  .bottom-text p a:hover{
+    text-decoration: underline;
+
+  }
+  .bottom-text1{
+    padding-left: 48px;
+  }
+  .docweb{
+    padding-left: 400px;
+  }
